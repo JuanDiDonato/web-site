@@ -1,0 +1,57 @@
+.achievements-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/gifs/achievements.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.achievements-children {
+    padding: 10%;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.achievements-text-header {
+    font-family: 'Raleway';
+}
+
+.achievements-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 70%;
+    background-color: black;
+}
+
+.achievements-button {
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.achievements-hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+.achievements-slide {
+    position: absolute;
+    visibility: visible;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .achievements-children {
+        font-size: 100%;
+    }
+}

@@ -1,8 +1,8 @@
 {
-  "name": "juan-di-donato",
+  "name": "web-site",
   "version": "2.0.0",
   "private": true,
-  "homepage": "https://github.com/JuanDiDonato/JuanDiDonato",
+  "homepage": "https://github.com/web-site",
   "dependencies": {
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "13.4.0",

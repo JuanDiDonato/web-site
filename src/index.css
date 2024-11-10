@@ -41,6 +41,7 @@ button:hover {
 #hobbies,
 #obj,
 #apt,
+#arc,
 #skl,
 #ftr,
 #presentation {
@@ -62,13 +63,4 @@ body::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
-
-/* #apt,
-#skl,
-#ftr{
-    min-height: 100vh !important;
-    background-image: url('/src/assets/images/edificios.jpg');
-    background-size: cover;
-} */
-
 
