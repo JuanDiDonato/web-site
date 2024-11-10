@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/web-site/static/css/main.b182abfd.css",
+    "main.js": "/web-site/static/js/main.aa8b0131.js",
+    "static/media/presentation.gif": "/web-site/static/media/presentation.4d594c7855339336afbe.gif",
+    "static/media/tv.gif": "/web-site/static/media/tv.840e27270680df6bbeda.gif",
+    "static/media/metas.gif": "/web-site/static/media/metas.c76145a40549ac1d8b2d.gif",
+    "static/media/keyboard.gif": "/web-site/static/media/keyboard.325072df4d94acd20fa9.gif",
+    "static/media/footer.gif": "/web-site/static/media/footer.83c68ade3b4ce0a1ab77.gif",
+    "static/media/hobbies.gif": "/web-site/static/media/hobbies.420d05be94fdab3a9685.gif",
+    "static/media/Raleway-VariableFont_wght.ttf": "/web-site/static/media/Raleway-VariableFont_wght.3fefe681f4c62116679b.ttf",
+    "static/media/Roboto-Thin.ttf": "/web-site/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
+    "static/media/delete.gif": "/web-site/static/media/delete.350c69c261a523c660a9.gif",
+    "index.html": "/web-site/index.html",
+    "main.b182abfd.css.map": "/web-site/static/css/main.b182abfd.css.map",
+    "main.aa8b0131.js.map": "/web-site/static/js/main.aa8b0131.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b182abfd.css",
+    "static/js/main.aa8b0131.js"
+  ]
+}
