@@ -1,0 +1,69 @@
+.skills-main {
+    color: white;
+    font-family: 'Raleway';
+    background-image: url('../assets/gifs/delete.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 70%;
+    background-color: black;
+}
+
+.skills-element {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.skills-element:hover {
+    cursor: pointer;
+}
+
+.skills-message {
+    width: 100%;
+    height: auto;
+}
+
+.skills-button {
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills-element h2,
+.skills-element h3 {
+    margin: 5px 0;
+}
+
+.skills-hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+.skills-slide {
+    position: absolute;
+    visibility: visible;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .skills-element {
+        font-size: 80%;
+    
+    }
+}

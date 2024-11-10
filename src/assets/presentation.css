@@ -1,0 +1,81 @@
+.presentation-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 70%;
+    background-color: black;
+}
+
+.presentation-hidden {
+    position: absolute;
+    visibility: hidden;
+}
+
+.presentation-slide {
+    position: absolute;
+    visibility: visible;
+    align-items: center;
+}
+
+h2 {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 2%;
+    font-size: 190%;
+}
+
+.presentation-main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../assets/gifs/presentation.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway';
+    color: white;
+}
+
+.presentation-message {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.presentation-message:hover {
+    cursor: pointer;
+}
+
+.presentation-button {
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 90%;
+    }
+
+    .presentation-button {
+        top: 70%;
+        left: 50%;
+    }
+}
+
+@media (min-width: 2000px) {
+    h2 {
+        font-size: 150%;
+    }
+
+    .presentation-button {
+        top: 70%;
+        left: 50%;
+    }
+}

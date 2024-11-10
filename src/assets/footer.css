@@ -1,0 +1,44 @@
+.footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/gifs/footer.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Raleway';
+}
+
+.footer-filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 70%;
+    background-color: black;
+}
+
+.footer-children {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.footer-children-element {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 2vw;
+}
+
+.footer-children-element img {
+    width: 20px;
+    height: 20px;
+    padding: 10%;
+}
+
+@media (max-width: 768px) {
+    .footer-children {
+        grid-template-columns: 100%;
+    }
+}
