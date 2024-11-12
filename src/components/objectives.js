@@ -19,7 +19,7 @@ const Objectives = () => {
                         </h3>
                     </div>
                     <div id="scroll_down" className="hobbies-button">
-                        <button onClick={() => window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' })}><img src={down_arrow} alt="arrow" /></button>
+                        <button onClick={() => window.scrollBy({ 'top': window.innerHeight , 'behavior': 'smooth' })}><img src={down_arrow} alt="arrow" /></button>
                     </div>
                 </div>
             </div>

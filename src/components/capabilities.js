@@ -46,7 +46,7 @@ const Aptitudes = () => {
       scrollRight.classList.add("capabilities-hidden");
       scrollDown.classList.remove("capabilities-hidden");
       scrollDown.classList.add("capabilities-slide");
-      window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' });
+      window.scrollBy({ 'top': window.innerHeight , 'behavior': 'smooth' });
     } else {
       next();
     }

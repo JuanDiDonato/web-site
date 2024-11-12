@@ -15,7 +15,7 @@ import java from '../assets/images/java.png';
 import spring from '../assets/images/spring.png';
 import aws from '../assets/images/aws.png';
 import right_arrow from '../assets/images/flecha-derecha.png';
-import down_arrow from '../assets/images/abajo.png'
+import up_arrow from '../assets/images/arriba.png'
 
 import '../assets/skills.css'
 
@@ -112,7 +112,7 @@ const Skills = () => {
             scrollRight.classList.add("skills-hidden");
             scrollDown.classList.remove("skills-hidden");
             scrollDown.classList.add("skills-slide");
-            window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' });
+            window.scrollBy({ 'top': ((0 - window.innerHeight  * 6)), 'behavior': 'smooth' });
         } else {
             next();
         }
@@ -141,7 +141,7 @@ const Skills = () => {
                 <button onClick={() => scroll()}><img src={right_arrow} alt="arrow" /></button>
             </div>
             <div id="skills_scroll_down" className="skills-button skills-hidden">
-                <button onClick={() => scroll()}><img src={down_arrow} alt="arrow" /></button>
+                <button onClick={() => scroll()}><img src={up_arrow} alt="arrow" /></button>
             </div>
         </div>
     )

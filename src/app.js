@@ -5,7 +5,6 @@ import Objectives from "./components/objectives";
 import Capabilities from "./components/capabilities";
 import Achievements from "./components/achievements";
 import Skills from "./components/skills";
-import Footer from "./components/footer";
 
 function App() {
   return (
@@ -39,11 +38,6 @@ function App() {
       <div id="skl">
         <Skills />
       </div>
-      {/* Footer */}
-      <div id="ftr">
-        <Footer />
-      </div>
-
     </main>
   )
 }

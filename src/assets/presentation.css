@@ -53,14 +53,14 @@ h2 {
     margin-top: 40px;
     align-items: center;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 @media (max-width: 768px) {
     h2 {
-        font-size: 90%;
+        font-size: 80%;
     }
 
     .presentation-button {

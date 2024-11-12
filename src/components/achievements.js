@@ -39,7 +39,7 @@ const Achievements = () => {
             scrollRight.classList.add("achievements-hidden")
             scrollDown.classList.remove("achievements-hidden")
             scrollDown.classList.add("achievements-slide")
-            window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' })
+            window.scrollBy({ 'top': window.innerHeight , 'behavior': 'smooth' })
         } else {
             next();
         }

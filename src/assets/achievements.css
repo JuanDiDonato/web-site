@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('../assets/gifs/achievements.gif');
+    background-image: url('../assets/gifs/footer.gif');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -52,6 +52,6 @@
 
 @media (max-width: 768px) {
     .achievements-children {
-        font-size: 100%;
+        font-size: 80%;
     }
 }

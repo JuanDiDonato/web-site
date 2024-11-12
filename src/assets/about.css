@@ -38,9 +38,8 @@
 
 @media (max-width: 768px) {
     .about-children {
-        font-size: 100%;
+        font-size: 80%;
     }
-    
     .about-button {
         top: 70%;
         left: 50%;

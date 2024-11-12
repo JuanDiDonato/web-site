@@ -45,7 +45,7 @@ const Presentation = () => {
             scrollRight.classList.add("presentation-hidden")
             scrollDown.classList.remove("presentation-hidden")
             scrollDown.classList.add("presentation-slide")
-            window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' })
+            window.scrollBy({ 'top': window.innerHeight , 'behavior': 'smooth' })
         } else {
             next();
         }
@@ -55,7 +55,7 @@ const Presentation = () => {
 
 
     return (
-        <div className="presentation-main">
+        <div className="presentation-main" id="presentation-main">
             <div className="presentation-filter">
                 <div>
                     <div className="presentation-message" onClick={() => next()}>
