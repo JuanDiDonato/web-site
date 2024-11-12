@@ -63,6 +63,17 @@
     height: 100%;
 }
 
+.my-name{
+    font-size: 200%;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+
+.my-profession{
+    font-size: 120%;
+    font-family: 'Raleway';
+}
+
 @media (max-width: 768px) {
     .welcome-main {
         font-size: 120%;

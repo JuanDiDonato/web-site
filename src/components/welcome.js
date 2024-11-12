@@ -13,12 +13,12 @@ const WelcomeMessage = () => {
         <div className="welcome-main">
             <div className="filter">
                 <div className="welcome-message-markup">
-                    <h1>
+                    <p className="my-name">
                         Juan Di Donato
-                    </h1>
-                    <h3>
+                    </p>
+                    <p className="my-profession">
                         Software Developer
-                    </h3>
+                    </p>
                     <div className="footer-children">
                         <div className="footer-children-element">
                             <div className="footer-element">
@@ -40,7 +40,7 @@ const WelcomeMessage = () => {
                         </div>
                     </div>
                     <div className="buttons">
-                        <button onClick={() => window.scrollBy({ 'top': window.innerHeight , 'behavior': 'smooth' })}><img src={arrrow} alt="arrow" /></button>
+                        <button onClick={() => window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' })}><img src={arrrow} alt="arrow" /></button>
                     </div>
                 </div>
             </div>
