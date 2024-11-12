@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/web-site/static/css/main.689e855f.css",
+    "main.css": "/web-site/static/css/main.3b6298b1.css",
     "main.js": "/web-site/static/js/main.a7cdc24f.js",
-    "static/media/presentation.gif": "/web-site/static/media/presentation.4d594c7855339336afbe.gif",
-    "static/media/tv.gif": "/web-site/static/media/tv.840e27270680df6bbeda.gif",
-    "static/media/metas.gif": "/web-site/static/media/metas.c76145a40549ac1d8b2d.gif",
-    "static/media/keyboard.gif": "/web-site/static/media/keyboard.325072df4d94acd20fa9.gif",
-    "static/media/footer.gif": "/web-site/static/media/footer.83c68ade3b4ce0a1ab77.gif",
-    "static/media/hobbies.gif": "/web-site/static/media/hobbies.420d05be94fdab3a9685.gif",
+    "static/media/keyboard.webp": "/web-site/static/media/keyboard.b871e0cbe30466a4c375.webp",
+    "static/media/footer.webp": "/web-site/static/media/footer.7f19e5b251e809dfa9a7.webp",
+    "static/media/presentation.webp": "/web-site/static/media/presentation.69acd979067d9f08060f.webp",
+    "static/media/tv.webp": "/web-site/static/media/tv.b7b30920637518cd0b60.webp",
+    "static/media/hoobies.webp": "/web-site/static/media/hoobies.ca8b790ee50fa249f071.webp",
+    "static/media/metas.webp": "/web-site/static/media/metas.38f6a15e373c1cb55120.webp",
     "static/media/Raleway-VariableFont_wght.ttf": "/web-site/static/media/Raleway-VariableFont_wght.3fefe681f4c62116679b.ttf",
     "static/media/Roboto-Thin.ttf": "/web-site/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
-    "static/media/delete.gif": "/web-site/static/media/delete.350c69c261a523c660a9.gif",
+    "static/media/delete.webp": "/web-site/static/media/delete.0517849877d21147de2e.webp",
     "index.html": "/web-site/index.html",
-    "main.689e855f.css.map": "/web-site/static/css/main.689e855f.css.map",
+    "main.3b6298b1.css.map": "/web-site/static/css/main.3b6298b1.css.map",
     "main.a7cdc24f.js.map": "/web-site/static/js/main.a7cdc24f.js.map"
   },
   "entrypoints": [
-    "static/css/main.689e855f.css",
+    "static/css/main.3b6298b1.css",
     "static/js/main.a7cdc24f.js"
   ]
 }
