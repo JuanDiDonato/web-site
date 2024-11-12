@@ -45,8 +45,8 @@ button:hover {
 #skl,
 #ftr,
 #presentation {
-    height: 100vh;
-    width: 100vw;
+    height: 100ddvh;
+    width: 100ddvw;
     display: flex;
     position: relative;
     justify-content: center;

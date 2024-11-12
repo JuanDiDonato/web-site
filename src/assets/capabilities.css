@@ -2,8 +2,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     opacity: 70%;
     background-color: black;
 }
@@ -15,8 +15,8 @@ h2 {
 }
 
 .capabilities-main {
-    width: 100vw;
-    height: 100vh;
+    width: 100dvw;
+    height: 100dvh;
     background-image: url('../assets/gifs/tv.gif');
     background-repeat: no-repeat;
     background-size: cover;
