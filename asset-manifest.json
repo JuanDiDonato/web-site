@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/web-site/static/css/main.6812d3d0.css",
-    "main.js": "/web-site/static/js/main.5aa23e65.js",
+    "main.css": "/web-site/static/css/main.6bfd43d8.css",
+    "main.js": "/web-site/static/js/main.e593ee4c.js",
     "static/media/presentation.gif": "/web-site/static/media/presentation.4d594c7855339336afbe.gif",
-    "static/media/achievements.gif": "/web-site/static/media/achievements.2f3298715c44f39844e1.gif",
     "static/media/tv.gif": "/web-site/static/media/tv.840e27270680df6bbeda.gif",
     "static/media/metas.gif": "/web-site/static/media/metas.c76145a40549ac1d8b2d.gif",
     "static/media/keyboard.gif": "/web-site/static/media/keyboard.325072df4d94acd20fa9.gif",
@@ -13,11 +12,11 @@
     "static/media/Roboto-Thin.ttf": "/web-site/static/media/Roboto-Thin.1711b41f3ae4cb322eea.ttf",
     "static/media/delete.gif": "/web-site/static/media/delete.350c69c261a523c660a9.gif",
     "index.html": "/web-site/index.html",
-    "main.6812d3d0.css.map": "/web-site/static/css/main.6812d3d0.css.map",
-    "main.5aa23e65.js.map": "/web-site/static/js/main.5aa23e65.js.map"
+    "main.6bfd43d8.css.map": "/web-site/static/css/main.6bfd43d8.css.map",
+    "main.e593ee4c.js.map": "/web-site/static/js/main.e593ee4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6812d3d0.css",
-    "static/js/main.5aa23e65.js"
+    "static/css/main.6bfd43d8.css",
+    "static/js/main.e593ee4c.js"
   ]
 }
