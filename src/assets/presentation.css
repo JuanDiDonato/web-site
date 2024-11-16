@@ -58,14 +58,37 @@ h2 {
     transform: translate(-50%, -50%);
 }
 
+.presentation-safari-button {
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 @media (max-width: 768px) {
     h2 {
-        font-size: 80%;
+        font-size: 90%;
     }
 
     .presentation-button {
         top: 70%;
         left: 50%;
+    }
+
+    .presentation-safari-button {
+        top: 70%;
+        left: 50%;
+    }
+
+    .presentation-button img{
+        width: 80%;
+    }
+
+    .presentation-safari-button img{
+        width: 80%;
     }
 }
 

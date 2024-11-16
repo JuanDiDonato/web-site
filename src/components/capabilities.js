@@ -59,7 +59,7 @@ const Aptitudes = () => {
       <div className="capabilities-filter">
         <div onClick={() => next()}>
           <div className="capabilities-message">
-            <h2>{title}</h2>
+            <h2 className="capabilities-text-header">{title}</h2>
             <h3>{description}</h3>
           </div>
           <div id="capabilities_scroll_right" className="capabilities-button">

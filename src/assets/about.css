@@ -40,8 +40,17 @@
     .about-children {
         font-size: 80%;
     }
+
     .about-button {
         top: 70%;
         left: 50%;
+    }
+
+    .about-button img{
+        width: 80%;
+    }
+
+    .about-text-header {
+        font-size: 150%;
     }
 }

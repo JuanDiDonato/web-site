@@ -8,7 +8,7 @@ const Objectives = () => {
             <div className="about-filter">
                 <div className="about-children">
                     <div>
-                        <h2>
+                        <h2 className="about-text-header">
                             Metas
                         </h2>
                         <h3>

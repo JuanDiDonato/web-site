@@ -40,7 +40,7 @@
     margin-top: 40px;
     align-items: center;
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -65,5 +65,8 @@
     .skills-element {
         font-size: 80%;
     
+    }
+    .skills-text-header{
+        font-size: 150%;
     }
 }

@@ -54,4 +54,12 @@
     .achievements-children {
         font-size: 80%;
     }
+
+    .achievements-text-header {
+        font-size: 150%;
+    }
+
+    .achievements-text-header img{
+        width: 80%;
+    }
 }

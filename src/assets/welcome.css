@@ -30,7 +30,8 @@
 }
 
 .buttons {
-    text-align: center
+    text-align: center;
+    margin-top: 10%;
 }
 
 .footer-children {
@@ -51,10 +52,10 @@
 .footer-children-element img {
     width: 20px;
     height: 20px;
-    padding: 5%; 
+    padding: 5%;
 }
 
-.footer-element{
+.footer-element {
     display: flex;
     text-align: center;
     justify-content: center;
@@ -63,13 +64,13 @@
     height: 100%;
 }
 
-.my-name{
+.my-name {
     font-size: 200%;
     font-family: 'Raleway';
     font-weight: bold;
 }
 
-.my-profession{
+.my-profession {
     font-size: 120%;
     font-family: 'Raleway';
 }
@@ -78,4 +79,13 @@
     .welcome-main {
         font-size: 120%;
     }
+
+    .buttons {
+        margin-top: 10%;
+    }
+
+    .buttons img {
+        width: 80%;
+    }
+
 }

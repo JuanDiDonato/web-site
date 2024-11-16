@@ -43,4 +43,12 @@
     .hobbies-children {
         font-size: 80%;
     }
+
+    .hobbies-button img{
+        width: 80%;
+    }
+
+    .hobbies-text-header{
+        font-size: 150%;
+    }
 }

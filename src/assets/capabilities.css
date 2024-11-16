@@ -37,12 +37,12 @@ h2 {
     cursor: pointer;
 }
 
-.capabilities-button{
+.capabilities-button {
     text-align: center;
     margin-top: 40px;
     align-items: center;
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -63,8 +63,17 @@ h2 {
         font-size: 80%;
 
     }
+
     .capabilities-button {
-        top: 75%;
+        top: 70%;
         left: 50%;
+    }
+
+    .capabilities-button img {
+        width: 80%;
+    }
+
+    .capabilities-text-header {
+        font-size: 150%;
     }
 }

@@ -9,9 +9,10 @@ import 'moment/locale/es'
 const Presentation = () => {
 
     const [activeIndex, setActiveIndex] = React.useState(0);
-    const [scrollDown, setScrollDown] = React.useState()
-    const [scrollRight, setScrollRight] = React.useState()
-    const [year, setYear] = React.useState()
+    const [scrollDown, setScrollDown] = React.useState();
+    const [scrollRight, setScrollRight] = React.useState();
+    const [browser, setBrowser] = React.useState(null);
+    const [year, setYear] = React.useState();
 
     React.useEffect(() => {
         const birthday = moment('2001-03-19');
@@ -19,6 +20,7 @@ const Presentation = () => {
         setScrollDown(document.getElementById("presentation_scroll_down"));
         setScrollRight(document.getElementById("presentation_scroll_right"));
         setYear(today.diff(birthday, 'years'));
+        setBrowser(window.navigator.userAgent.match(/(Chrome|Firefox|Safari|Edge|IE|Opera)/i)[0])
     }, []);
 
     const presentation = [
@@ -45,7 +47,7 @@ const Presentation = () => {
             scrollRight.classList.add("presentation-hidden")
             scrollDown.classList.remove("presentation-hidden")
             scrollDown.classList.add("presentation-slide")
-            window.scrollBy({ 'top': window.innerHeight , 'behavior': 'smooth' })
+            window.scrollBy({ 'top': window.innerHeight, 'behavior': 'smooth' })
         } else {
             next();
         }
@@ -61,10 +63,10 @@ const Presentation = () => {
                     <div className="presentation-message" onClick={() => next()}>
                         <h2>{message}</h2>
                     </div>
-                    <div id="presentation_scroll_right" className="presentation-button">
+                    <div id="presentation_scroll_right" className={browser === "Safari" ? "presentation-safari-button" : "presentation-button"}>
                         <button onClick={() => scroll()}><img src={right_arrow} alt="arrow" /></button>
                     </div>
-                    <div id="presentation_scroll_down" className="presentation-button presentation-hidden">
+                    <div id="presentation_scroll_down" className={browser === "Safari" ? "presentation-safari-button presentation-hidden" : "presentation-button presentation-hidden"}>
                         <button onClick={() => scroll()}><img src={down_arrow} alt="arrow" /></button>
                     </div>
                 </div>

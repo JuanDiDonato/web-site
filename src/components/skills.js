@@ -128,7 +128,7 @@ const Skills = () => {
                         <div>
                             <img src={image} alt="JavaScript" />
                         </div>
-                        <div>
+                        <div className="skills-text-header">
                             <h2>{title}</h2>
                         </div>
                     </div>
